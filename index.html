@@ -49,6 +49,7 @@
               stroke="red"></polyline>
 </svg>
 
+<h3>Домашнее задание к уроку №2</h3>
 <!--ДЗ №2-->
 <svg width="300" height="150">
     <rect width="300" height="150"></rect>
@@ -138,5 +139,86 @@
           stroke-dasharray="4 1 2"
     ></line>
 </svg>
+
+<!--Восьмиугольник-->
+<svg>
+    <polygon
+            points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30"
+            fill="#2379d7"
+    ></polygon>
+</svg>
+
+<!--Линейный градиент-->
+<svg>
+    <linearGradient id="gradient1">
+        <stop offset="0%" stop-color="yellow"></stop>
+        <stop offset="100%" stop-color="blue"></stop>
+    </linearGradient>
+    <polygon
+            points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30"
+            fill="url(#gradient1)"
+    ></polygon>
+</svg>
+
+<svg>
+    <linearGradient id="gradient3" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="yellow"></stop>
+        <stop offset="100%" stop-color="blue"></stop>
+    </linearGradient>
+    <polygon
+            points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30"
+            fill="url(#gradient3)"
+    ></polygon>
+</svg>
+
+<svg>
+    <linearGradient id="gradient4" x1="1" y1="1" x2="0" y2="0">
+        <stop offset="0%" stop-color="yellow"></stop>
+        <stop offset="100%" stop-color="blue"></stop>
+    </linearGradient>
+    <polygon
+            points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30"
+            fill="url(#gradient4)"
+    ></polygon>
+</svg>
+
+<!--Радиальный градиент-->
+<svg>
+    <radialGradient id="gradient2">
+        <stop offset="0%" stop-color="yellow"></stop>
+        <stop offset="50%" stop-color="blue" stop-opacity=".5"></stop>
+        <stop offset="100%" stop-color="red"></stop>
+    </radialGradient>
+    <polygon
+            points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30"
+            fill="url(#gradient2)"
+    ></polygon>
+</svg>
+
+<svg>
+    <radialGradient id="gradient5" r=".5" cx=".25" cy=".5">
+        <stop offset="0%" stop-color="yellow"></stop>
+        <stop offset="50%" stop-color="blue" stop-opacity=".5"></stop>
+        <stop offset="100%" stop-color="red"></stop>
+    </radialGradient>
+    <polygon
+            points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30"
+            fill="url(#gradient5)"
+    ></polygon>
+</svg>
+
+<svg>
+    <radialGradient id="gradient6" fx=".25" fy=".75">
+        <stop offset="0%" stop-color="yellow"></stop>
+        <stop offset="50%" stop-color="blue" stop-opacity=".5"></stop>
+        <stop offset="100%" stop-color="red"></stop>
+    </radialGradient>
+    <polygon
+            points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30"
+            fill="url(#gradient6)"
+    ></polygon>
+</svg>
+
+
 </body>
 </html>
