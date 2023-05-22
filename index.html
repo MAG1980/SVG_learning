@@ -617,5 +617,81 @@
     />
 </svg>
 
+<h3>Урок №11. Паттерны (узоры)</h3>
+<p>Паттерн использован в качестве заливки</p>
+<svg>
+    <pattern id="bg1" width="40" height="40">
+        <path d="M 4,4 L 10,20 15,30 40,4 Z" fill="red" stroke="orange" stroke-width="3"/>
+    </pattern>
+    <rect
+            x="5"
+            y="5"
+            width="150"
+            height="100"
+            fill="url(#bg1)"
+            stroke="orange"
+            stroke-width="3"
+    />
+</svg>
+
+<p>Атрибут patternTransform</p>
+<svg>
+    <pattern id="bg3" width="40" height="40" patternTransform="translate(50)">
+        <path d="M 4,4 L 10,20 15,30 40,4 Z" fill="red" stroke="orange" stroke-width="3"/>
+    </pattern>
+    <rect
+            x="5"
+            y="5"
+            width="150"
+            height="100"
+            fill="url(#bg3)"
+            stroke="orange"
+            stroke-width="3"
+    />
+</svg>
+
+<p>Использование паттерна в качестве обводки</p>
+<svg width="400" height="200">
+    <pattern id="bg4" width="10%" height="10%"
+             viewBox="0 0 10 10"
+    >
+        <path d="M 4,4 L 10,20 15,30 40,4 Z" fill="red" stroke="orange" stroke-width="3"/>
+    </pattern>
+    <rect
+            x="5"
+            y="5"
+            width="150"
+            height="100"
+            fill="url(#bg4)"
+            stroke="orange"
+            stroke-width="3"
+    />
+    <rect
+            x="200"
+            y="5"
+            width="100"
+            height="100"
+            fill="transparent"
+            stroke="url(#bg4)"
+            stroke-width="20"
+    />
+</svg>
+
+<p>С помощью паттернов можно создавать обводку для изображений сложной формы</p>
+<svg>
+    <pattern id="bg2" width="100%" height="100%">
+        <image xlink:href="https://i.imgur.com/39FBgDX.png" width="150"/>
+    </pattern>
+    <rect
+            x="5"
+            y="5"
+            width="150"
+            height="100"
+            fill="url(#bg2)"
+            stroke="orange"
+            stroke-width="3"
+    />
+</svg>
+
 </body>
 </html>
