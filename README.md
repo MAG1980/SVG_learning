@@ -353,7 +353,11 @@ stroke="url(#bg4)"
 patternTransform="translate(50)"
 
 Icons & sprites
-Можно брать на flaticon.com и других.
+Можно брать на
+https://www.flaticon.com,
+https://icomoon.io/app/#/select,
+https://www.iconfinder.com/
+и других.
 Спрайты создаются для того, чтобы объединять изображения в один файл
 и подключать компоненты его содержимого по мере необходимости.
 

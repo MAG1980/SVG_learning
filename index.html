@@ -16,6 +16,7 @@
             background-repeat: no-repeat;
         }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!--    Прямоугольник-->
@@ -762,6 +763,23 @@
 </svg>
 <svg>
     <use xlink:href="sprite.svg#bankFromFile"></use>
+</svg>
+
+<h3>ДЗ к уроку №12</h3>
+<svg display="none">
+    <symbol id="camera" viewBox="0 0 512 512">
+        <path d="M152 304c0 57.438 46.562 104 104 104s104-46.562 104-104-46.562-104-104-104-104 46.562-104 104zM480 128h-112c-8-32-16-64-48-64h-128c-32 0-40 32-48 64h-112c-17.6 0-32 14.4-32 32v288c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-288c0-17.6-14.4-32-32-32zM256 446c-78.425 0-142-63.574-142-142s63.575-142 142-142c78.426 0 142 63.575 142 142s-63.573 142-142 142zM480 224h-64v-32h64v32z"></path>
+    </symbol>
+    <symbol id="microphone" viewBox="0 0 512 512">
+        <path d="M240 352c44.183 0 80-35.817 80-80v-192c0-44.183-35.817-80-80-80s-80 35.817-80 80v192c0 44.183 35.818 80 80 80zM352 224v48c0 61.855-50.145 112-112 112s-112-50.145-112-112v-48h-32v48c0 74.119 56.002 135.15 128 143.11v64.89h-64v32h160v-32h-64v-64.89c71.997-7.96 128-68.991 128-143.11v-48h-32z"></path>
+    </symbol>
+</svg>
+
+<svg class="svg-sprite">
+    <use xlink:href="#camera"></use>
+</svg>
+<svg class="svg-sprite">
+    <use xlink:href="#microphone"></use>
 </svg>
 </body>
 </html>
