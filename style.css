@@ -70,3 +70,32 @@
         opacity: 0;
     }
 }
+
+.line{
+    animation: lineAnimation 2s ease infinite alternate;
+}
+
+@keyframes lineAnimation{
+    from{
+        transform:scaleY(1)
+    }
+    to{
+        transform: scaleY(1.2);
+    }
+}
+
+.svg-circle{
+    fill:#fdcb5c;
+    stroke:black;
+    stroke-width: 5px;
+}
+
+#fill-pattern{
+    fill: red;
+    stroke:green;
+    stroke-width: 3px;
+}
+
+.with-pattern{
+    fill: url(#fill-pattern);
+}
