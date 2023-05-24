@@ -53,3 +53,20 @@
     font-size: 60px;
     color: red;
 }
+
+/*Анимация*/
+.zero {
+    animation: numberNull 1s linear infinite alternate;
+}
+
+@keyframes numberNull {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
